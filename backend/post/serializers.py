@@ -1,12 +1,12 @@
 from rest_framework import serializers
 
-from backend.category.models import Category
-from backend.category.serializers import CategorySerializers
+from category.models import Category
+from category.serializers import CategorySerializer
 from .models import Thread, Post
 
 
 class ThreadSerializer(serializers.ModelSerializer):
-    category = CategorySerializers(read_only=True)
+    category = CategorySerializer(read_only=True)
     category_id = serializers.PrimaryKeyRelatedField(queryset=Category.objects.all(), source="category", write_only=True)
     class Meta:
         model = Thread

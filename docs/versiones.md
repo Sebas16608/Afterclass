@@ -22,3 +22,35 @@ Versiones de las dependencias usadas en el proyecto:
 Frontend: Node.js 20+, React 19, Vite 8, Tailwind CSS 4.
 
 Estas versiones también están fijadas en `requirements.txt` y `frontend/package.json`.
+
+---
+
+## Historial de versiones del proyecto
+
+### Versión 0.1 (actual)
+
+**Qué hace:**
+
+- Foro anónimo para estudiantes: categorías, hilos (threads) y posts.
+- Respuestas anidadas: un post puede responder a otro post (árbol de comentarios).
+- Autor opcional en hilos y respuestas (vacío = anónimo).
+- Hilos fijados (📌) y bloqueados (🔒).
+- Frontend con portada `/`, reglas `/rules` y tablón `/board`.
+
+**Cómo funciona:**
+
+- El frontend (React + Vite) llama a la API de Django REST (`/category/`, `/post/`).
+- Django usa `DATABASE_URL` para Postgres/Neon en producción y SQLite en local.
+- WhiteNoise sirve los estáticos, CORS permite al frontend de Vercel llamar a la API.
+- Docker disponible solo para el backend.
+
+**Ideas para futuras versiones:**
+
+- Borrado de hilos/posts por moderadores (soft delete o botón de borrar).
+- Paginación en hilos y respuestas.
+- Búsqueda de hilos por título/contenido.
+- Reacciones o votos (upvotes) en posts.
+- Subida de imágenes en hilos/posts.
+- Modo oscuro.
+- Recuperar hilos eliminados / auditoría de moderación.
+

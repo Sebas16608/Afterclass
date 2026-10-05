@@ -15,6 +15,9 @@ class Thread(models.Model):
         verbose_name = "Thread"
         verbose_name_plural = "Threads"
 
+    def __str__(self) -> str:
+        return f"Thread {self.pk}, {self.title}"
+
 class Post(models.Model):
     thread = models.ForeignKey(Thread, on_delete=models.CASCADE, related_name="posts")
     content = models.TextField()
@@ -24,3 +27,6 @@ class Post(models.Model):
         ordering = ["created_at"]
         verbose_name = "Post"
         verbose_name_plural = "Posts"
+
+    def __str__(self) -> str:
+        return f"{self.content}"

@@ -64,3 +64,8 @@ Afterclass/
 En `docs/` hay más información:
 
 - `docs/versiones.md` — versiones de Python y dependencias usadas.
+- `docs/CONTRIBUTING.md` — cómo contribuir al proyecto.
+
+## Licencia
+
+Este proyecto se distribuye bajo la licencia [GPL-3.0](LICENSE).

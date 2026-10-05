@@ -189,6 +189,10 @@ function Board() {
           <a href="https://github.com/Sebas16608/Afterclass" target="_blank" rel="noreferrer" className="underline text-[#34345c]">
             Aportar al código
           </a>
+          {' · '}
+          <a href="https://github.com/Sebas16608/Afterclass/issues/new" target="_blank" rel="noreferrer" className="underline text-[#34345c]">
+            Reportar bug
+          </a>
         </p>
       </header>
 

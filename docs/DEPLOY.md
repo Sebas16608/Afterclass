@@ -17,5 +17,5 @@ docker run -p 8000:8000 --env-file backend/.env afterclass-backend
 ## Frontend (Vercel)
 
 - Root Directory: `frontend`
-- Variable de entorno: `VITE_API_URL=https://afterclass-ptvl.onrender.com`
+- Variable de entorno: `VITE_API_URL=<url-de-tu-backend>` (ej. la URL pública de tu servicio en Render)
 - Las rutas del cliente (`/board`, `/rules`) funcionan gracias a `frontend/vercel.json`.

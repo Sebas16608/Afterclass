@@ -5,6 +5,7 @@ class Thread(models.Model):
     category = models.ForeignKey("category.Category", on_delete=models.PROTECT, related_name="threads")
     title = models.CharField(max_length=200)
     content = models.TextField()
+    author = models.CharField(max_length=100, blank=True, default="")
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     is_pinned = models.BooleanField(default=False)
@@ -21,6 +22,8 @@ class Thread(models.Model):
 class Post(models.Model):
     thread = models.ForeignKey(Thread, on_delete=models.CASCADE, related_name="posts")
     content = models.TextField()
+    author = models.CharField(max_length=100, blank=True, default="")
+    parent = models.ForeignKey("self", on_delete=models.CASCADE, null=True, blank=True, related_name="replies")
     created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:

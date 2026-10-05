@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+const API = import.meta.env.VITE_API_URL ?? ''
 
 function PostItem({ p }) {
   const [replies, setReplies] = useState([])
@@ -6,7 +7,7 @@ function PostItem({ p }) {
   const [form, setForm] = useState({ content: '', author: '' })
 
   const cargarReplies = () => {
-    fetch(`/post/posts/?parent=${p.id}`)
+    fetch(`${API}/post/posts/?parent=${p.id}`)
       .then((res) => res.json())
       .then(setReplies)
   }
@@ -15,7 +16,7 @@ function PostItem({ p }) {
 
   const responder = (e) => {
     e.preventDefault()
-    fetch('/post/posts/', {
+    fetch(`${API}/post/posts/`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ...form, thread_id: p.thread.id, parent: p.id }),
@@ -72,7 +73,7 @@ function ThreadCard({ t }) {
   const [form, setForm] = useState({ content: '', author: '' })
 
   const cargarPosts = () => {
-    fetch(`/post/posts/?thread=${t.id}`)
+    fetch(`${API}/post/posts/?thread=${t.id}`)
       .then((res) => res.json())
       .then(setPosts)
   }
@@ -81,7 +82,7 @@ function ThreadCard({ t }) {
 
   const responder = (e) => {
     e.preventDefault()
-    fetch('/post/posts/', {
+    fetch(`${API}/post/posts/`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ...form, thread_id: t.id }),
@@ -149,14 +150,14 @@ function Board() {
   const [form, setForm] = useState({ title: '', content: '', author: '' })
 
   useEffect(() => {
-    fetch('/category/categories/')
+    fetch(`${API}/category/categories/`)
       .then((res) => res.json())
       .then(setCategories)
   }, [])
 
   useEffect(() => {
     if (!category) return
-    fetch(`/post/threads/?category=${category.id}`)
+    fetch(`${API}/post/threads/?category=${category.id}`)
       .then((res) => res.json())
       .then(setThreads)
       .catch(() => setThreads([]))
@@ -164,7 +165,7 @@ function Board() {
 
   const crearHilo = (e) => {
     e.preventDefault()
-    fetch('/post/threads/', {
+    fetch(`${API}/post/threads/`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ...form, category_id: category.id }),
@@ -172,7 +173,7 @@ function Board() {
       if (res.ok) {
         setShowForm(false)
         setForm({ title: '', content: '', author: '' })
-        fetch(`/post/threads/?category=${category.id}`)
+        fetch(`${API}/post/threads/?category=${category.id}`)
           .then((r) => r.json())
           .then(setThreads)
       }

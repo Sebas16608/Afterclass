@@ -49,9 +49,18 @@ La API quedará disponible en `http://127.0.0.1:8000/`.
 
 ```
 Afterclass/
-├── backend/          # Configuración del proyecto Django
-├── category/         # App de categorías
-├── post/             # App de publicaciones
-├── manage.py
-└── db.sqlite3
+├── backend/          # Proyecto Django (settings, urls)
+│   ├── category/     # App de categorías
+│   ├── post/         # App de publicaciones
+│   ├── manage.py
+│   └── db.sqlite3
+├── docs/             # Documentación
+├── requirements.txt
+└── README.md
 ```
+
+## Documentación
+
+En `docs/` hay más información:
+
+- `docs/versiones.md` — versiones de Python y dependencias usadas.

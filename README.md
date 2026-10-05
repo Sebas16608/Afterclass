@@ -49,12 +49,10 @@ La API quedará disponible en `http://127.0.0.1:8000/`.
 
 ```
 Afterclass/
-├── backend/          # Proyecto Django (settings, urls)
-│   ├── category/     # App de categorías
-│   ├── post/         # App de publicaciones
-│   ├── manage.py
-│   └── db.sqlite3
+├── backend/          # Proyecto Django (settings, urls, apps category y post)
+├── frontend/         # React + Vite + Tailwind
 ├── docs/             # Documentación
+├── Dockerfile        # Imagen Docker del backend
 ├── requirements.txt
 └── README.md
 ```
@@ -65,6 +63,7 @@ En `docs/` hay más información:
 
 - `docs/versiones.md` — versiones de Python y dependencias usadas.
 - `docs/CONTRIBUTING.md` — cómo contribuir al proyecto.
+- `docs/DEPLOY.md` — cómo desplegar el backend (Render/Docker) y el frontend (Vercel).
 
 ## Licencia
 

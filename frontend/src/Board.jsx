@@ -185,6 +185,11 @@ function Board() {
       <header className="text-center border-b border-[#b7c5d9] pb-4 mb-4">
         <h1 className="text-3xl font-bold text-[#af0a0f]"><a href="/">/Afterclass/</a></h1>
         <p className="text-base text-gray-600">El tablón de la universidad</p>
+        <p className="text-sm mt-1">
+          <a href="https://github.com/Sebas16608/Afterclass" target="_blank" rel="noreferrer" className="underline text-[#34345c]">
+            Aportar al código
+          </a>
+        </p>
       </header>
 
       <div className="bg-[#d6daf0] border border-[#b7c5d9] p-3 mb-4 text-sm">

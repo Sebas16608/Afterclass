@@ -12,6 +12,9 @@ function Rules() {
           Afterclass es un foro anónimo para estudiantes. El anonimato no significa que todo
           esté permitido: el sitio se mantiene seguro porque todos respetan las reglas.
         </p>
+        <p className="text-justify mt-2">
+          Todo hilo o respuesta que rompa estas reglas será borrado por un moderador.
+        </p>
       </div>
 
       <div className="bg-[#d6daf0] border border-[#b7c5d9] p-6 mb-6">

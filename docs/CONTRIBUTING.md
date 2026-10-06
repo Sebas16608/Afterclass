@@ -1,6 +1,6 @@
 # Cómo contribuir
 
-Gracias por querer contribuir a AfterClass. Es un proyecto OSS para estudiantes, así que cualquier ayuda es bienvenida.
+Gracias por querer contribuir a Afterclass. Es un proyecto OSS para estudiantes, así que cualquier ayuda es bienvenida.
 
 ## Requisitos
 

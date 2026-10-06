@@ -94,11 +94,11 @@ function TermsGate({ children }) {
           <div className="bg-[#d6daf0] border border-[#b7c5d9] p-6 mb-6">
             <h2 className="text-xl font-bold mb-3 text-center">Bienvenido a Afterclass</h2>
             <p className="mb-3 text-justify">
-              Antes de continuar, debes revisar los términos de uso de AfterClass.
+              Antes de continuar, debes revisar los términos de uso de Afterclass.
               No podrás acceder a la plataforma hasta que los leas y aceptes.
             </p>
             <p className="mb-6 text-justify">
-              AfterClass es un espacio independiente y no representa oficialmente a ninguna
+              Afterclass es un espacio independiente y no representa oficialmente a ninguna
               universidad, institución, docente o autoridad.
             </p>
             <div className="text-center">
@@ -114,7 +114,7 @@ function TermsGate({ children }) {
 
         {view === 'terms' && (
           <div className="bg-[#d6daf0] border border-[#b7c5d9] p-6 mb-6">
-            <h2 className="text-lg font-bold mb-2 text-center">Términos de uso de AfterClass</h2>
+            <h2 className="text-lg font-bold mb-2 text-center">Términos de uso de Afterclass</h2>
             <div className="max-h-96 overflow-y-auto border border-[#b7c5d9] bg-[#eef2ff] p-4 mb-4 text-justify">
               <TermsContent />
             </div>
@@ -125,7 +125,7 @@ function TermsGate({ children }) {
                 checked={checked}
                 onChange={(e) => setChecked(e.target.checked)}
               />
-              <span>He leído y acepto los términos de uso de AfterClass.</span>
+              <span>He leído y acepto los términos de uso de Afterclass.</span>
             </label>
 
             <div className="text-center">

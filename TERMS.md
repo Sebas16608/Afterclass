@@ -1,17 +1,17 @@
-# Términos de Uso de AfterClass
+# Términos de Uso de Afterclass
 
 **Versión:** 1.0
 **Fecha de vigencia:** 5 de octubre de 2026
 
-## 1. Naturaleza de AfterClass
+## 1. Naturaleza de Afterclass
 
-AfterClass es un espacio independiente. No representa oficialmente a ninguna
+Afterclass es un espacio independiente. No representa oficialmente a ninguna
 universidad, institución, docente o autoridad. El contenido publicado refleja la
 opinión de usuarios anónimos y no cuenta con el aval de terceros.
 
 ## 2. Responsabilidad sobre el contenido
 
-Cada usuario es responsable del contenido que publica en AfterClass. AfterClass
+Cada usuario es responsable del contenido que publica en Afterclass. Afterclass
 no se hace responsable por las opiniones, afirmaciones o materiales compartidos
 por los usuarios/autores.
 
@@ -58,31 +58,31 @@ a la categoría *Mayores*.
 El anonimato no significa que todo esté permitido: el sitio se mantiene seguro
 porque todos respetan las reglas.
 
-## 7. Acciones fuera de AfterClass
+## 7. Acciones fuera de Afterclass
 
-Estos términos regulan la conducta dentro de AfterClass. Las acciones realizadas
+Estos términos regulan la conducta dentro de Afterclass. Las acciones realizadas
 fuera de la plataforma no forman parte del uso del sitio, aunque de ellas
-puedan derivarse consecuencias personales o legales ajenas a AfterClass.
+puedan derivarse consecuencias personales o legales ajenas a Afterclass.
 
 ## 8. Facultades de administración y moderación
 
-AfterClass se reserva el derecho de borrar hilos o respuestas que rompan estas
+Afterclass se reserva el derecho de borrar hilos o respuestas que rompan estas
 reglas, así como de limitar el uso de la plataforma cuando sea necesario para
 cuidar a la comunidad.
 
 ## 9. Uso y aceptación de estos términos
 
-Al usar AfterClass aceptas estos términos de uso. No podrás acceder a la
+Al usar Afterclass aceptas estos términos de uso. No podrás acceder a la
 plataforma hasta haberlos leído y aceptado.
 
 ## 10. Cambios futuros
 
-AfterClass puede publicar nuevas versiones de estos términos. Cuando se publique
+Afterclass puede publicar nuevas versiones de estos términos. Cuando se publique
 una nueva versión, los usuarios deberán volver a leerlos y aceptarlos antes de
 continuar usando la plataforma.
 
 ## 11. Nota legal
 
-Estos términos no constituyen asesoría legal. AfterClass debe cumplir con la
+Estos términos no constituyen asesoría legal. Afterclass debe cumplir con la
 legislación aplicable, y los usuarios también son responsables de respetar la
 ley al usar la plataforma.

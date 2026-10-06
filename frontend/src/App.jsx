@@ -1,12 +1,14 @@
 import Board from './Board.jsx'
 import Welcome from './Welcome.jsx'
 import Rules from './Rules.jsx'
+import TermsGate from './TermsGate.jsx'
 
 function App() {
   const path = window.location.pathname
-  if (path === '/rules') return <Rules />
-  if (path === '/board') return <Board />
-  return <Welcome />
+  let page = <Welcome />
+  if (path === '/rules') page = <Rules />
+  if (path === '/board') page = <Board />
+  return <TermsGate>{page}</TermsGate>
 }
 
 export default App

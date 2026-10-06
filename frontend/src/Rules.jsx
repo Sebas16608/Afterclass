@@ -57,6 +57,13 @@ function Rules() {
           Esto <strong>no</strong> permite amenazas, acoso, publicación de información
           personal, difamación deliberada ni llamados a hacer daño a una persona.
         </p>
+        <p className="mt-2 text-justify">
+          Se permite funar personas, pero <strong>no se deben publicar nombres ni rasgos
+          físicos</strong> de las personas involucradas.
+        </p>
+        <p className="mt-2 text-justify">
+          En el área de <em>Maestros</em> solo se permite funar a maestros.
+        </p>
       </div>
 
       <div className="bg-[#f6d6d6] border border-[#c98a8a] p-6 mb-6">

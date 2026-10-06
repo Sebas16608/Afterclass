@@ -199,7 +199,8 @@ function Board() {
       <div className="bg-[#d6daf0] border border-[#b7c5d9] p-3 mb-4 text-sm">
         <strong>Reglas rápidas:</strong> no amenazar ni acosar, no publicar información
         personal de otras personas, respetar a los demás y usar las categorías
-        correctamente. <a href="/rules" className="underline text-[#34345c]">Ver las reglas</a>
+        correctamente. Al funar, no publicar nombres ni rasgos físicos; en el área de
+        Maestros solo se puede funar a maestros. <a href="/rules" className="underline text-[#34345c]">Ver las reglas</a>
       </div>
 
       {!category && (

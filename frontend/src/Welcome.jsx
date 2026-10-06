@@ -22,6 +22,8 @@ function Welcome() {
           <li>No publicar información personal de otras personas.</li>
           <li>Respetar a los demás usuarios.</li>
           <li>Usar las categorías correctamente.</li>
+          <li>Al funar, no publicar nombres ni rasgos físicos.</li>
+          <li>En Maestros solo se puede funar a maestros.</li>
         </ul>
         <p className="mt-3 text-center">
           <a href="/rules" className="underline text-[#34345c]">Ver las reglas</a>

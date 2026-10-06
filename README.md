@@ -109,4 +109,4 @@ En `docs/` hay más información:
 
 ## Licencia
 
-Este proyecto se distribuye bajo la licencia [GPL-3.0](LICENSE).
+Este proyecto se distribuye bajo la licencia [AGPL-3.0](LICENSE).
